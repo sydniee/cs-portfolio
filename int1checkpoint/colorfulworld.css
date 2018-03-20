@@ -1,0 +1,21 @@
+body {
+    background-color: lavender;
+    text-align:center;
+}
+
+h1{
+  border: 6px dotted white;
+  color: pink;
+  border-radius: 35px;
+
+}
+
+#title1{
+    color:slateblue;
+    background-color: white
+}
+
+#title2{
+    color:LightSteelBlue;
+    background-color: white
+}

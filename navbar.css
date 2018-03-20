@@ -1,0 +1,26 @@
+#navbar {
+    text-align: center;
+    margin-right: 50px
+}
+
+#navbar li {
+    list-style:none;
+    border: 2px solid LightSeaGreen;
+    
+
+}
+
+#navbar a {
+    
+    text-decoration: none;
+    color: LightSeaGreen;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 125%
+    
+   
+}
+
+#navbar a:hover {
+    color: teal;
+}

@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <script src="int2checkpoints/processing.min.js"></script>
+    <link rel="stylesheet" href="navbar.css" type="text/css" />
+    <link rel="stylesheet" href="art.css" type="text/css">
+</head>
+
+<body>
+    <ul id="navbar">
+        <a href="index.html">
+            <li> About Me </li>
+        </a>
+        <a href="howtoaboutme.html">
+            <li> How To-About Me</li>
+        </a>
+        <a href="art.html">
+            <li> Art </li>
+        </a>
+        <a href="howtoart.html">
+            <li> How To-Art</li>
+        </a>
+    </ul>
+
+    <center>
+        <h2 id tag="made"> What I Made</h2>
+    </center>
+    <p id="intro"> I created a watermelon that appears at the spot where you click. After a certain amount of clicks all the watermelons on the screen will disappear. Everytime you click for a watermelon to appear, the seeds will always show up in a different spot.
+    </p>
+
+    <h2 id="a2"> How I Made the Base of My Watermelon </h2>
+    <center><img src="images/function.png"></center>
+    <p id="base"> To make the base of my watermelon, I had to make a circle. To make a circle you use an ellipse. An ellipse contains 4 things x,y, width, and height. When you write out your code you write ellipse(x,y,width,height). The x and y determines where on
+        the screen the circle will appear and the width and height determines the size of the circle. When I made the green base, I wanted to make it a certain size so I changed my width and height which looked like ellipse(x,y,150,1500). I had to color
+        my base so I wrote fill(70,242,147) which colored the inside of my watermelon green. After, I had to add the inside of the watermelon so I made another ellipse with a smaller height and width which was ellipse(x,y,125,125). Next I had to color
+        it so I used another fill but changed the numbers to fill(226,63,88). After that I wanted to change the color of the stroke so I wrote stroke and wrote my chosen color which was white, stroke(255). To make it thicker I just changed the strokeweight
+        by writing strokeWeight (3). </p>
+
+    <h2 id="seeds"> How to Make the Seeds Appear Randomly With a Loop</h2>
+    <center><img src="images/seeds.png"></center>
+    <p id="randomseeds"> To make the seeds appear randomly I had to make a loop. The loop was to make my seeds always appear in a random and different spot whenever I clicked for a watermelon to appear. The loop I used was a for loop. In my code I wrote for(var i= 0; i
+        < random(8-20); i +=1 ). That meant if my variable i was less than then a random 8-20 seeds would appear and once the 8-20 seeds appear it repeats the process mkaking a loop. </p>
+
+            <h2 id="click"> How to Make the Watermelons Appear When You Click </h2>
+            <center><img src="images/mouseclick.png"></center>
+            <p id="clickappear"> To make my watermelons appear when I click I had to make a function. The function I made was a mouseClicked function. Everytime you click the mouse, the function wil get called. To start off your function, you go to the top of your ellipse
+                and write drawWatermelon= function(x,y){}. After you move all your information into the brackets. Next go to the bottom of your code and above your draw = function() write mouseClicked = function () {}. Inside the bracket write drawWatermelon(mouseX,mouseY);
+                Then you need to write numWatermelons ++ that way when you click a new watermelon will appear. </p>
+
+            <h2 id="clear"> How to Clear the Background </h2>
+            <center><img src="images/resetbackground.png"></center>
+            <p id="clearbackground"> To clear the background you use an if else statement. I made a variable called numWatermelons which equaled to 0. Then for my code I wrote if (numWatermelons > 14) { background(); numWatermelons= 0;} This means if the number of watermelons
+                on the screen is more than 14 then the background turns back to green and the number of watermelons reset to 0.</p>
+
+            <center>
+                <h2> What Decisions I Had to Make </h2>
+            </center>
+            <p id="decision"> At the start of the project, I decided to make a watermelon. A choice I had to make was how big I wanted it to be and how it would look. I decided to make my loop have my watermelon seeds randomly appear in a different spot everytime. My last
+                decision I had to make was what my if else statement would do. I decided to use my if else statement to clear my screen after a certain amount of time. One thing I will remember how to do is clear my background using an if else statement.
+                To clear my background you write if (numWatermelons > 14) { background(); numWatermelons= 0;}. So when the number of watermelons on the screen is more than 14, the screen will be turned back to 0 and the background will be reset. If I
+                had more tiime, I would have used Khan Academy more to understand the skills and practice it before I made my project. </p>

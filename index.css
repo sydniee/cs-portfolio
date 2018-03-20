@@ -1,0 +1,63 @@
+body {
+    background-color: Snow;
+    
+}
+#title1{
+    text-align: center;
+    color: LightSteelBlue;
+    font-size: 300%;
+}
+
+#p1{
+   text-align: center;
+   font-size:175%;
+   color:rosybrown;
+     
+}
+
+#volleyball {
+    background-color: Thistle;
+    border: solid darkmagenta 5px;
+    margin-left: 40px;
+}
+
+/* this puts stuff on the same line */
+#volleyball, #belize {
+    display: inline-block;
+    width: 40%;
+}
+
+#belize{
+    margin-left: 170px;
+    background-color: Paleturquoise;
+    border: solid aquamarine 5px;
+}
+
+#picture1{
+    text-align: center;
+}
+
+#header2{
+    text-align: center;
+    color: PowderBlue;
+}
+
+#list1 {
+   background-color:lightcyan;
+   margin-left: 585px;
+   margin-right:575px;
+   border:solid cadetblue 5px;
+}
+
+#sport {
+    text-align: center;
+}
+
+#travel{
+    text-align: center;
+}
+
+#add {
+    text-align: center;
+}
+

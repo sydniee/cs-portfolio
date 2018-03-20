@@ -1,0 +1,53 @@
+body {
+    background-color: pink;
+}
+
+#made {
+    text-align: center;
+}
+
+#a2 {
+    text-align: center;
+}
+
+#seeds {
+    text-align: center;
+}
+
+#click {
+    text-align: center;
+}
+
+#clear {
+    text-align: center;
+}
+
+#intro {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#base {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#randomseeds {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#clickappear {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#clearbackground {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#decision {
+    margin-left: 125px;
+    margin-right: 125px;
+}

@@ -1,0 +1,123 @@
+body {
+    background-color: lavender;
+
+}
+
+#HTML {
+    text-align: center;
+    color: turquoise;
+}
+
+#createmargin{
+    background-color: peachpuff;
+    border: solid mistyrose 5px;
+    text-align: center;
+    width: 60%;
+    margin-left: 270px;
+}
+
+#navbarpic,#navbar2 {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+}
+
+#navbarpic {
+    margin-left: 40px
+}
+
+#t1 {
+    text-align: center
+}
+
+#navbar2 {
+    background-color: lavenderblush;
+    border: solid mediumvioletred 5px;
+    margin-left: 60px
+}
+
+#createheader {
+    background-color: lightblue;
+    border: solid skyblue 5px;
+    text-align: center;
+    width: 60%;
+    margin-left: 270px;
+
+
+}
+
+#t2 {
+    text-align: center
+}
+
+#headerpic {}
+
+#createparagraph {
+    background-color: gainsboro;
+    border: solid slategray 5px;
+    width: 60%;
+    text-align: center;
+    margin-left: 270px;
+    margin-right: 260px;
+
+}
+
+#t3 {
+    text-align: center;
+}
+
+
+#createimage {
+    background-color: palegreen;
+    border: solid lightgreen 5px;
+    width: 60%;
+    text-align: center;
+    margin-left: 270px;
+}
+
+#creatediv {
+    background-color: lightyellow;
+    border: solid yellow 5px;
+    width: 60%;
+    margin-left: 270px;
+    text-align: center;
+}
+
+#CSS {
+    text-align: center;
+    color: deeppink;
+}
+
+#createbackgroundcolorborder {
+    background-color: lightcoral;
+    border: solid indianred 5px;
+    width: 60%;
+    text-align: center;
+    margin-left: 270px;
+}
+
+#createcenter {
+    background-color: lightseagreen;
+    border: solid cadetblue 5px;
+    text-align: center;
+    margin-left: 270px;
+    width: 60%;
+}
+
+#explanation{
+    background-color: cornflowerblue;
+    border: solid navy 5px;
+    text-align: center;
+    width: 60%;
+    margin-left: 270px;
+}
+
+#t4{
+    text-align:center;
+    color: indigo;
+}
+
+
+
+
+
